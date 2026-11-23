@@ -50,3 +50,7 @@ chmod +x ~/.claude/statusline.py
 ```bash
 python3 -c "import json,os,time;d=json.load(open(os.path.expanduser('~/.claude/cache/rate-limits.json')));print(d['rate_limits']['five_hour']['used_percentage'], int(time.time()-d['updated_at']), 'sec ago')"
 ```
+
+## ライセンス
+
+[MIT License](LICENSE)
