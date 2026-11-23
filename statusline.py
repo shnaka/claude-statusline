@@ -25,7 +25,7 @@ def _save_rate_limits():
 
 _save_rate_limits()
 
-BLOCKS = ' ▏▎▍▌▋▊▉█'
+BLOCKS = '░▏▎▍▌▋▊▉█'
 R = '\033[0m'
 DIM = '\033[2m'
 CYAN = '\033[38;2;100;200;255m'
